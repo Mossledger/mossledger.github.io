@@ -1,0 +1,18 @@
+{
+  "id": "/",
+  "name": "Personal Diet Tracker",
+  "short_name": "Diet Tracker",
+  "description": "A local-first diet and recipe tracker focused on fast logging and weekly nutrition trends.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#0e0f11",
+  "theme_color": "#0e0f11",
+  "categories": ["health", "food", "lifestyle"],
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
