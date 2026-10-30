@@ -1,7 +1,7 @@
 // Replaced with the complete, versioned app shell by the production build.
 const CACHE_PREFIX = 'diet-tracker-shell-';
-const CACHE = CACHE_PREFIX + 'f80def260825e371';
-const SHELL = ["/apple-touch-icon.png","/assets/commonFoods-C0ZXZf_D.js","/assets/index-DAjQV0In.js","/assets/index-DY-KPNwp.css","/build-info.json","/icon-192.png","/icon-512.png","/index.html","/manifest.webmanifest","/robots.txt"];
+const CACHE = CACHE_PREFIX + '8e58fbc28f8065d9';
+const SHELL = ["/apple-touch-icon.png","/assets/commonFoods-C0ZXZf_D.js","/assets/index-CYzP5BAB.css","/assets/index-DDeuIAUP.js","/build-info.json","/icon-192.png","/icon-512.png","/index.html","/manifest.webmanifest","/robots.txt"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(SHELL)));
